@@ -1,0 +1,587 @@
+{
+  "users": [
+    {
+      "id": "e84baf11-8580-435b-a1a7-dcdc99ea85e8",
+      "username": "son",
+      "displayName": "a",
+      "createdAt": "2026-10-07T14:14:31.604Z",
+      "credentials": [],
+      "currentChallenge": "sGUwLTGJROKSSbP6_2G1QrQhzR9gblUtM3TDoSmRg5I"
+    },
+    {
+      "id": "0b1d2e4c-e881-4e23-93f6-7f155f549de2",
+      "username": "s",
+      "displayName": "s",
+      "createdAt": "2026-10-07T14:19:44.213Z",
+      "credentials": [
+        {
+          "id": "4Sd24Hocs2ZP9EiH3dc0jSwYuDTGygv8PPPgatwW-G8",
+          "publicKey": "pQECAyYgASFYIOKK8xiFiW4jrkiHSBWpTZwkIp5j9f_lFSbcqJBYCvP0Ilgg0mIPBJaZV43Z8KZFaTJ2aordYH6otOq_KjDgiV6xZa0",
+          "counter": 2,
+          "transports": [
+            "internal"
+          ],
+          "deviceType": "singleDevice",
+          "backedUp": false,
+          "deviceName": "Windows Hello (Sinh trắc / TPM)",
+          "createdAt": "2026-10-07T14:19:56.351Z",
+          "lastUsedAt": "2026-10-07T15:41:21.672Z",
+          "algorithm": -7,
+          "algorithmName": "ES256 (ECDSA P-256)",
+          "publicKeyHex": "a5010203262001215820e28af31885896e23ae48874815a94d9c24229e63f5ffe51526dca890580af3f4225820d2620f049699578dd9f0a6456932766a8add607ea8b4eabf2a30e0895eb165ad",
+          "publicKeyPem": "-----BEGIN PUBLIC KEY-----\npQECAyYgASFYIOKK8xiFiW4jrkiHSBWpTZwkIp5j9f/lFSbcqJBYCvP0Ilgg0mIP\nBJaZV43Z8KZFaTJ2aordYH6otOq/KjDgiV6xZa0=\n-----END PUBLIC KEY-----"
+        }
+      ]
+    },
+    {
+      "id": "a6a9edbe-bd4f-4268-8078-6002fea509b3",
+      "username": "Q",
+      "displayName": "Q",
+      "createdAt": "2026-10-07T14:50:32.213Z",
+      "credentials": [
+        {
+          "id": "nCVo40UipGduB55WvUrRFg",
+          "publicKey": "pQECAyYgASFYIHSaQoUSn412FdtpjL44cfBH9rlrTb4sCnFEFQgKfScSIlggWkwRjPCux5WBNZ3zVN8n9oQiIa7yRnq5WHaiGlKOHGE",
+          "counter": 0,
+          "transports": [
+            "hybrid",
+            "internal"
+          ],
+          "deviceType": "multiDevice",
+          "backedUp": true,
+          "deviceName": "Điện thoại thông minh (Passkey)",
+          "createdAt": "2026-10-07T14:51:00.936Z",
+          "lastUsedAt": "2026-10-11T16:33:14.036Z",
+          "algorithm": -7,
+          "algorithmName": "ES256 (ECDSA P-256)",
+          "publicKeyHex": "a5010203262001215820749a4285129f8d7615db698cbe3871f047f6b96b4dbe2c0a714415080a7d27122258205a4c118cf0aec79581359df354df27f6842221aef2467ab95876a21a528e1c61",
+          "publicKeyPem": "-----BEGIN PUBLIC KEY-----\npQECAyYgASFYIHSaQoUSn412FdtpjL44cfBH9rlrTb4sCnFEFQgKfScSIlggWkwR\njPCux5WBNZ3zVN8n9oQiIa7yRnq5WHaiGlKOHGE=\n-----END PUBLIC KEY-----"
+        }
+      ]
+    }
+  ],
+  "logs": [
+    {
+      "id": "687cb577-6a61-414d-afec-228da104c65e",
+      "timestamp": "2026-10-11T16:33:14.040Z",
+      "username": "Q",
+      "action": "AUTHENTICATION",
+      "status": "SUCCESS",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "1E8bLLgiOWtHzRs7ddzr9QQFdx9KpE4lAzkxRgMD7do",
+      "credentialId": "nCVo40UipGduB55WvUrRFg",
+      "algorithmName": "ES256 (ECDSA P-256)",
+      "publicKeyHex": "a5010203262001215820749a4285129f8d7615db698cbe3871f047f6b96b4dbe2c0a714415080a7d27122258205a4c118cf0aec79581359df354df27f6842221aef2467ab95876a21a528e1c61",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\npQECAyYgASFYIHSaQoUSn412FdtpjL44cfBH9rlrTb4sCnFEFQgKfScSIlggWkwR\njPCux5WBNZ3zVN8n9oQiIa7yRnq5WHaiGlKOHGE=\n-----END PUBLIC KEY-----",
+      "signatureHex": "3044022029da302fda324abd60b268dfbdeb2dbec119a7fa251a785779abb19340bd9c31022020c73c6913a7d79a300147f6fbdec21dec2c50ba2494d68c4bd8b7163b833428",
+      "rawAuthDataHex": "49960de5880e8c687434170f6476605b8fe4aeb9a28632c7995cf3ba831d97631d00000000",
+      "rawClientDataJSON": "{\"type\":\"webauthn.get\",\"challenge\":\"1E8bLLgiOWtHzRs7ddzr9QQFdx9KpE4lAzkxRgMD7do\",\"origin\":\"http://localhost:3000\",\"crossOrigin\":false}",
+      "clientData": {
+        "type": "webauthn.get",
+        "challenge": "1E8bLLgiOWtHzRs7ddzr9QQFdx9KpE4lAzkxRgMD7do",
+        "origin": "http://localhost:3000",
+        "crossOrigin": false
+      },
+      "authenticatorData": {
+        "rpIdHashHex": "49960de5880e8c687434170f6476605b8fe4aeb9a28632c7995cf3ba831d9763",
+        "flags": {
+          "userPresent": true,
+          "userVerified": true,
+          "attestedCredentialData": false,
+          "extensionDataIncluded": false,
+          "rawFlagsByte": 29
+        },
+        "counter": 0
+      },
+      "details": "Xác thực thành công qua Public-Key Cryptography. SignCounter tăng từ 0 lên 0"
+    },
+    {
+      "id": "36313b53-ce63-41ed-be23-e9358d2a2409",
+      "timestamp": "2026-10-11T16:32:41.649Z",
+      "username": "Q",
+      "action": "AUTHENTICATION",
+      "status": "SUCCESS",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "VTVjwtKRP_Kd-GbO__KMIx37YCIT6jMOsOrpwlLm6nc",
+      "credentialId": "nCVo40UipGduB55WvUrRFg",
+      "algorithmName": "ES256 (ECDSA P-256)",
+      "publicKeyHex": "a5010203262001215820749a4285129f8d7615db698cbe3871f047f6b96b4dbe2c0a714415080a7d27122258205a4c118cf0aec79581359df354df27f6842221aef2467ab95876a21a528e1c61",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\npQECAyYgASFYIHSaQoUSn412FdtpjL44cfBH9rlrTb4sCnFEFQgKfScSIlggWkwR\njPCux5WBNZ3zVN8n9oQiIa7yRnq5WHaiGlKOHGE=\n-----END PUBLIC KEY-----",
+      "signatureHex": "3044022059f01f4ce638e0b823b6a1f6b4599d11802e305f8423e9089c04bb51448f27b5022028c1dc9c65d079e6000c7bd2fcc512505dac3257e52079ece0157d8b9e6e2465",
+      "rawAuthDataHex": "49960de5880e8c687434170f6476605b8fe4aeb9a28632c7995cf3ba831d97631900000000",
+      "rawClientDataJSON": "{\"type\":\"webauthn.get\",\"challenge\":\"VTVjwtKRP_Kd-GbO__KMIx37YCIT6jMOsOrpwlLm6nc\",\"origin\":\"http://localhost:3000\",\"crossOrigin\":false}",
+      "clientData": {
+        "type": "webauthn.get",
+        "challenge": "VTVjwtKRP_Kd-GbO__KMIx37YCIT6jMOsOrpwlLm6nc",
+        "origin": "http://localhost:3000",
+        "crossOrigin": false
+      },
+      "authenticatorData": {
+        "rpIdHashHex": "49960de5880e8c687434170f6476605b8fe4aeb9a28632c7995cf3ba831d9763",
+        "flags": {
+          "userPresent": true,
+          "userVerified": false,
+          "attestedCredentialData": false,
+          "extensionDataIncluded": false,
+          "rawFlagsByte": 25
+        },
+        "counter": 0
+      },
+      "details": "Xác thực thành công qua Public-Key Cryptography. SignCounter tăng từ 0 lên 0"
+    },
+    {
+      "id": "444cf008-104a-4afe-bf64-a55bb14222a9",
+      "timestamp": "2026-10-07T16:27:51.156Z",
+      "username": "s",
+      "action": "AUTHENTICATION",
+      "status": "FAILED",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "DPZI5TC85TBWdVPpE6th3suZxdbnuhRthYAhgSqCJoI",
+      "credentialId": "4Sd24Hocs2ZP9EiH3dc0jSwYuDTGygv8PPPgatwW-G8",
+      "errorMessage": "REPLAY ATTACK PHÁT HIỆN: Thử thách (Challenge Nonce) đã bị sử dụng trong phiên trước hoặc đã hết hạn TTL (W3C §7.2).",
+      "details": "Hệ thống từ chối yêu cầu do máy chủ áp dụng nguyên tắc Single-Use Nonce & Timestamp TTL. Gói tin xác thực bị phát lại bị chặn đứng."
+    },
+    {
+      "id": "b23077b5-9a35-419f-843b-614cdb231b2d",
+      "timestamp": "2026-10-07T16:25:36.939Z",
+      "username": "phishing_victim",
+      "action": "AUTHENTICATION",
+      "status": "FAILED",
+      "rpId": "localhost",
+      "origin": "http://localhost:4000",
+      "challenge": "5oS3sIVNosrUgA32gAyldTbjR5s6QxCik-nxFkF_2RA",
+      "errorMessage": "PHISHING ATTACK PHÁT HIỆN: Origin nhận được [http://localhost:4000] không khớp với Relying Party ID đã cấu hình.",
+      "details": "Cơ chế Origin Binding của trình duyệt ghi nhận domain thật của tab đang duyệt là http://localhost:4000. Khóa FIDO2 gắn chặt với localhost nên việc trích xuất khóa trên trang giả mạo hoàn toàn bất khả thi."
+    },
+    {
+      "id": "f5e77146-9373-460f-905f-9d1d2efd1bc8",
+      "timestamp": "2026-10-07T16:25:36.899Z",
+      "username": "user_demo",
+      "action": "AUTHENTICATION",
+      "status": "SUCCESS",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "ZKqPMaHiypPgHBgcQBZMGXGIrUntokgdQZJszFdFL9o",
+      "details": "Xác thực thành công. Origin [http://localhost:3000] trùng khớp 100% với RP ID [localhost]."
+    },
+    {
+      "id": "f1a65c2d-3465-4ede-ba44-989319397990",
+      "timestamp": "2026-10-07T16:25:36.870Z",
+      "username": "s",
+      "action": "AUTHENTICATION",
+      "status": "FAILED",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "DPZI5TC85TBWdVPpE6th3suZxdbnuhRthYAhgSqCJoI",
+      "errorMessage": "REPLAY ATTACK PHÁT HIỆN: Thử thách (Challenge Nonce) đã bị sử dụng trong phiên trước hoặc đã hết hạn TTL (W3C §7.2).",
+      "details": "Hệ thống từ chối yêu cầu do máy chủ áp dụng nguyên tắc Single-Use Nonce & Timestamp TTL. Gói tin xác thực bị phát lại bị chặn đứng."
+    },
+    {
+      "id": "a9e21f7f-cdf8-42a8-8e7d-b37ece17397e",
+      "timestamp": "2026-10-07T16:17:35.509Z",
+      "username": "phishing_victim",
+      "action": "AUTHENTICATION",
+      "status": "FAILED",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "Xov8ghFjhmeVu5IjgGIW9E1yVW_Z4g5vyLKdg1TyaFM",
+      "errorMessage": "REPLAY ATTACK PHÁT HIỆN: Thử thách (Challenge Nonce) đã bị sử dụng trong phiên trước hoặc đã hết hạn TTL (W3C §7.2).",
+      "details": "Hệ thống từ chối yêu cầu do máy chủ áp dụng nguyên tắc Single-Use Nonce & Timestamp TTL. Gói tin xác thực bị phát lại bị chặn đứng."
+    },
+    {
+      "id": "4aa3116e-b6ad-4db1-b9f6-6ba1a75ade8e",
+      "timestamp": "2026-10-07T16:17:32.256Z",
+      "username": "phishing_victim",
+      "action": "AUTHENTICATION",
+      "status": "SUCCESS",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "Zv6IuaTx9GuQViluGmc1GRkkM8newIV-ZwhljQhncaE",
+      "details": "Xác thực thành công. Origin [http://localhost:3000] trùng khớp 100% với RP ID [localhost]."
+    },
+    {
+      "id": "ff6ba752-c520-4f9d-93ab-93a59fb1f780",
+      "timestamp": "2026-10-07T16:17:24.085Z",
+      "username": "phishing_victim",
+      "action": "AUTHENTICATION",
+      "status": "FAILED",
+      "rpId": "localhost",
+      "origin": "http://localhost: 3000",
+      "challenge": "kzsxxn5p5MZuCqWItTBgy980eJrDWgM-nhvxb-cGGuk",
+      "errorMessage": "PHISHING ATTACK PHÁT HIỆN: Origin nhận được [http://localhost: 3000] không khớp với Relying Party ID đã cấu hình.",
+      "details": "Cơ chế Origin Binding của trình duyệt ghi nhận domain thật của tab đang duyệt là http://localhost: 3000. Khóa FIDO2 gắn chặt với localhost nên việc trích xuất khóa trên trang giả mạo hoàn toàn bất khả thi."
+    },
+    {
+      "id": "f52b345c-f80e-414f-8632-0766df56e3c5",
+      "timestamp": "2026-10-07T16:16:58.826Z",
+      "username": "phishing_victim",
+      "action": "AUTHENTICATION",
+      "status": "SUCCESS",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "rIGMZjZvx-KZ8KM2zZ_dr6P82G1040NYEF6eOWvaDBI",
+      "details": "Xác thực thành công. Origin [http://localhost:3000] trùng khớp 100% với RP ID [localhost]."
+    },
+    {
+      "id": "2d875606-5c21-4f25-b93f-6792d160f1a8",
+      "timestamp": "2026-10-07T16:15:37.138Z",
+      "username": "phishing_victim",
+      "action": "AUTHENTICATION",
+      "status": "FAILED",
+      "rpId": "localhost",
+      "origin": "http://vietcombank.fake",
+      "challenge": "Xov8ghFjhmeVu5IjgGIW9E1yVW_Z4g5vyLKdg1TyaFM",
+      "errorMessage": "PHISHING ATTACK PHÁT HIỆN: Origin nhận được [http://vietcombank.fake] không khớp với Relying Party ID đã cấu hình.",
+      "details": "Cơ chế Origin Binding của trình duyệt ghi nhận domain thật của tab đang duyệt là http://vietcombank.fake. Khóa FIDO2 gắn chặt với localhost nên việc trích xuất khóa trên trang giả mạo hoàn toàn bất khả thi."
+    },
+    {
+      "id": "0b81182e-7ed4-4a28-acf8-9e2b435903a5",
+      "timestamp": "2026-10-07T16:15:37.107Z",
+      "username": "phishing_victim",
+      "action": "AUTHENTICATION",
+      "status": "FAILED",
+      "rpId": "localhost",
+      "origin": "http://localhost:4000",
+      "challenge": "BX8zyIfUZo3862aFlIf7GePnrzTCCRt4Ds7YO5D6qz8",
+      "errorMessage": "PHISHING ATTACK PHÁT HIỆN: Origin nhận được [http://localhost:4000] không khớp với Relying Party ID đã cấu hình.",
+      "details": "Cơ chế Origin Binding của trình duyệt ghi nhận domain thật của tab đang duyệt là http://localhost:4000. Khóa FIDO2 gắn chặt với localhost nên việc trích xuất khóa trên trang giả mạo hoàn toàn bất khả thi."
+    },
+    {
+      "id": "43938615-9302-479c-8930-d9a32c973706",
+      "timestamp": "2026-10-07T16:15:37.054Z",
+      "username": "user_demo",
+      "action": "AUTHENTICATION",
+      "status": "SUCCESS",
+      "rpId": "localhost",
+      "origin": "localhost:3000",
+      "challenge": "ihYvCGichekdCMj5x1XdoontuE1UtbQ7XsWJhKwOrBk",
+      "details": "Xác thực thành công. Origin [localhost:3000] trùng khớp 100% với RP ID [localhost]."
+    },
+    {
+      "id": "091e52b7-f1a8-48cd-860b-4b38547d3ddc",
+      "timestamp": "2026-10-07T16:15:37.027Z",
+      "username": "user_demo",
+      "action": "AUTHENTICATION",
+      "status": "SUCCESS",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "rMkaE22du97i8GF02DVu9P65Mw0gC0YDljW017kUoW0",
+      "details": "Xác thực thành công. Origin [http://localhost:3000] trùng khớp 100% với RP ID [localhost]."
+    },
+    {
+      "id": "40e59211-f8f2-4a94-95e8-554046378e77",
+      "timestamp": "2026-10-07T16:11:48.241Z",
+      "username": "phishing_victim",
+      "action": "AUTHENTICATION",
+      "status": "FAILED",
+      "rpId": "localhost",
+      "origin": "localhost:3000",
+      "challenge": "QYwjmLm7W5K_urWySug-Uh34r6vqGVdHAjAXWLebXLU",
+      "errorMessage": "PHISHING ATTACK PHÁT HIỆN: Origin nhận được [localhost:3000] không khớp với Relying Party ID đã cấu hình.",
+      "details": "Cơ chế Origin Binding của trình duyệt ghi nhận domain thật của tab đang duyệt là localhost:3000. Khóa FIDO2 gắn chặt với localhost nên việc trích xuất khóa trên trang giả mạo hoàn toàn bất khả thi."
+    },
+    {
+      "id": "35a86ba2-d0ec-4788-95a0-905daa5870a2",
+      "timestamp": "2026-10-07T16:11:40.080Z",
+      "username": "user_demo",
+      "action": "AUTHENTICATION",
+      "status": "SUCCESS",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "661RHNfEQGFJZYigaJJNiG4z-xKHjICssIyQv4pxBOI",
+      "details": "Xác thực thành công. Origin [http://localhost:3000] trùng khớp 100% với RP ID [localhost]."
+    },
+    {
+      "id": "b3c9c71d-cc96-4fb1-a1a0-a263f6e087b1",
+      "timestamp": "2026-10-07T16:08:40.038Z",
+      "username": "s",
+      "action": "AUTHENTICATION",
+      "status": "FAILED",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "b-DI0aJeFSvuGT844_iG6RLfTajpsW5gzegYgr-soxw",
+      "errorMessage": "PHISHING ATTACK PHÁT HIỆN: Origin nhận được [http://localhost:3000] không khớp với Relying Party ID đã cấu hình.",
+      "details": "Cơ chế Origin Binding của trình duyệt ghi nhận domain thật của tab đang duyệt là http://localhost:3000. Khóa FIDO2 gắn chặt với localhost nên việc trích xuất khóa trên trang giả mạo hoàn toàn bất khả thi."
+    },
+    {
+      "id": "eabee5d1-26f2-4a94-9943-f3695afa8cf6",
+      "timestamp": "2026-10-07T15:54:17.330Z",
+      "username": "s",
+      "action": "AUTHENTICATION",
+      "status": "FAILED",
+      "rpId": "localhost",
+      "origin": "http://localhost:4000",
+      "challenge": "5UX8m5Q2rFeeor3n8MQibJAuRmkaQJahd1tCIiN3xL0",
+      "errorMessage": "PHISHING ATTACK PHÁT HIỆN: Origin nhận được [http://localhost:4000] không khớp với Relying Party ID đã cấu hình.",
+      "details": "Cơ chế Origin Binding của trình duyệt ghi nhận domain thật của tab đang duyệt là http://localhost:4000. Khóa FIDO2 gắn chặt với localhost nên việc trích xuất khóa trên trang giả mạo hoàn toàn bất khả thi."
+    },
+    {
+      "id": "8ba3fbe7-7386-47c8-94fe-224ae4648b64",
+      "timestamp": "2026-10-07T15:54:13.369Z",
+      "username": "s",
+      "action": "AUTHENTICATION",
+      "status": "FAILED",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "DPZI5TC85TBWdVPpE6th3suZxdbnuhRthYAhgSqCJoI",
+      "credentialId": "4Sd24Hocs2ZP9EiH3dc0jSwYuDTGygv8PPPgatwW-G8",
+      "errorMessage": "REPLAY ATTACK PHÁT HIỆN: Thử thách (Challenge Nonce) đã bị sử dụng trong phiên trước hoặc đã hết hạn TTL (W3C §7.2).",
+      "details": "Hệ thống từ chối yêu cầu do máy chủ áp dụng nguyên tắc Single-Use Nonce & Timestamp TTL. Gói tin xác thực bị phát lại bị chặn đứng."
+    },
+    {
+      "id": "1bb5a652-3e1e-453a-97a1-6a693355dae9",
+      "timestamp": "2026-10-07T15:41:21.681Z",
+      "username": "s",
+      "action": "AUTHENTICATION",
+      "status": "SUCCESS",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "DPZI5TC85TBWdVPpE6th3suZxdbnuhRthYAhgSqCJoI",
+      "credentialId": "4Sd24Hocs2ZP9EiH3dc0jSwYuDTGygv8PPPgatwW-G8",
+      "algorithmName": "ES256 (ECDSA P-256)",
+      "publicKeyHex": "a5010203262001215820e28af31885896e23ae48874815a94d9c24229e63f5ffe51526dca890580af3f4225820d2620f049699578dd9f0a6456932766a8add607ea8b4eabf2a30e0895eb165ad",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\npQECAyYgASFYIOKK8xiFiW4jrkiHSBWpTZwkIp5j9f/lFSbcqJBYCvP0Ilgg0mIP\nBJaZV43Z8KZFaTJ2aordYH6otOq/KjDgiV6xZa0=\n-----END PUBLIC KEY-----",
+      "signatureHex": "3046022100e6887700dd115da1878b464f82f8078bc829d2cc2cabde4f105b3e5292b64c49022100ae2f2d952713db93ac406ce9dc57dd1d8131b92b74895c08d7d66e058d9c30f4",
+      "rawAuthDataHex": "49960de5880e8c687434170f6476605b8fe4aeb9a28632c7995cf3ba831d97630500000002",
+      "rawClientDataJSON": "{\"type\":\"webauthn.get\",\"challenge\":\"DPZI5TC85TBWdVPpE6th3suZxdbnuhRthYAhgSqCJoI\",\"origin\":\"http://localhost:3000\",\"crossOrigin\":false}",
+      "clientData": {
+        "type": "webauthn.get",
+        "challenge": "DPZI5TC85TBWdVPpE6th3suZxdbnuhRthYAhgSqCJoI",
+        "origin": "http://localhost:3000",
+        "crossOrigin": false
+      },
+      "authenticatorData": {
+        "rpIdHashHex": "49960de5880e8c687434170f6476605b8fe4aeb9a28632c7995cf3ba831d9763",
+        "flags": {
+          "userPresent": true,
+          "userVerified": true,
+          "attestedCredentialData": false,
+          "extensionDataIncluded": false,
+          "rawFlagsByte": 5
+        },
+        "counter": 2
+      },
+      "details": "Xác thực thành công qua Public-Key Cryptography. SignCounter tăng từ 1 lên 2"
+    },
+    {
+      "id": "ce6193fc-5900-4202-8f39-d6a770b9a2f4",
+      "timestamp": "2026-10-07T15:17:06.454Z",
+      "username": "s",
+      "action": "AUTHENTICATION",
+      "status": "FAILED",
+      "rpId": "localhost",
+      "origin": "http://vietcombank-phishing-fake.net:4000",
+      "challenge": "uj2h3tdnO0eWySF6fm7le1X3IA-pGiwMDIkCgzx8-jQ",
+      "errorMessage": "PHISHING ATTACK PHÁT HIỆN: Origin nhận được [http://vietcombank-phishing-fake.net:4000] không khớp với Relying Party ID đã cấu hình.",
+      "details": "Cơ chế Origin Binding của trình duyệt ghi nhận domain thật của tab đang duyệt là http://vietcombank-phishing-fake.net:4000. Khóa FIDO2 gắn chặt với localhost nên việc trích xuất khóa trên trang giả mạo hoàn toàn bất khả thi."
+    },
+    {
+      "id": "5bae2f70-3cb1-4d65-a15d-dc40a7111095",
+      "timestamp": "2026-10-07T15:16:19.034Z",
+      "username": "s",
+      "action": "AUTHENTICATION",
+      "status": "FAILED",
+      "rpId": "localhost",
+      "origin": "http://vietcombank-phishing-fake.net:4000",
+      "challenge": "PZ-6eGM9d4UfatTBw0UGBO5PWWtC6cL6UhUrAnm2oyk",
+      "errorMessage": "PHISHING ATTACK PHÁT HIỆN: Origin nhận được [http://vietcombank-phishing-fake.net:4000] không khớp với Relying Party ID đã cấu hình.",
+      "details": "Cơ chế Origin Binding của trình duyệt ghi nhận domain thật của tab đang duyệt là http://vietcombank-phishing-fake.net:4000. Khóa FIDO2 gắn chặt với localhost nên việc trích xuất khóa trên trang giả mạo hoàn toàn bất khả thi."
+    },
+    {
+      "id": "ddc34c84-fe66-408b-bfac-1435d92e606d",
+      "timestamp": "2026-10-07T15:16:17.058Z",
+      "username": "s",
+      "action": "AUTHENTICATION",
+      "status": "FAILED",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "RaYQ603HA-yJc8mPhZnWJnNIwHvMjs6B3AuDyVXXh50",
+      "credentialId": "4Sd24Hocs2ZP9EiH3dc0jSwYuDTGygv8PPPgatwW-G8",
+      "errorMessage": "REPLAY ATTACK PHÁT HIỆN: Thử thách (Challenge Nonce) đã bị sử dụng trong phiên trước hoặc đã hết hạn TTL (W3C §7.2).",
+      "details": "Hệ thống từ chối yêu cầu do máy chủ áp dụng nguyên tắc Single-Use Nonce & Timestamp TTL. Gói tin xác thực bị phát lại bị chặn đứng."
+    },
+    {
+      "id": "7eadf3e3-8517-4b90-ad26-ca0dada8cf37",
+      "timestamp": "2026-10-07T15:16:16.340Z",
+      "username": "s",
+      "action": "AUTHENTICATION",
+      "status": "FAILED",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "RaYQ603HA-yJc8mPhZnWJnNIwHvMjs6B3AuDyVXXh50",
+      "credentialId": "4Sd24Hocs2ZP9EiH3dc0jSwYuDTGygv8PPPgatwW-G8",
+      "errorMessage": "REPLAY ATTACK PHÁT HIỆN: Thử thách (Challenge Nonce) đã bị sử dụng trong phiên trước hoặc đã hết hạn TTL (W3C §7.2).",
+      "details": "Hệ thống từ chối yêu cầu do máy chủ áp dụng nguyên tắc Single-Use Nonce & Timestamp TTL. Gói tin xác thực bị phát lại bị chặn đứng."
+    },
+    {
+      "id": "1e14cc19-a939-4b39-847c-4fc8a2982a2e",
+      "timestamp": "2026-10-07T15:15:56.222Z",
+      "username": "s",
+      "action": "AUTHENTICATION",
+      "status": "SUCCESS",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "RaYQ603HA-yJc8mPhZnWJnNIwHvMjs6B3AuDyVXXh50",
+      "credentialId": "4Sd24Hocs2ZP9EiH3dc0jSwYuDTGygv8PPPgatwW-G8",
+      "algorithmName": "ES256 (ECDSA P-256)",
+      "publicKeyHex": "a5010203262001215820e28af31885896e23ae48874815a94d9c24229e63f5ffe51526dca890580af3f4225820d2620f049699578dd9f0a6456932766a8add607ea8b4eabf2a30e0895eb165ad",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\npQECAyYgASFYIOKK8xiFiW4jrkiHSBWpTZwkIp5j9f/lFSbcqJBYCvP0Ilgg0mIP\nBJaZV43Z8KZFaTJ2aordYH6otOq/KjDgiV6xZa0=\n-----END PUBLIC KEY-----",
+      "signatureHex": "3046022100f634926ebc99cd2dfe47bf5e38711f046a5b9dc1246aedbc803a47139e47a56b02210080aec6ab904aa017091a578d16dd71ef737ca2983b40f7e446baedf6aec8915b",
+      "rawAuthDataHex": "49960de5880e8c687434170f6476605b8fe4aeb9a28632c7995cf3ba831d97630500000001",
+      "rawClientDataJSON": "{\"type\":\"webauthn.get\",\"challenge\":\"RaYQ603HA-yJc8mPhZnWJnNIwHvMjs6B3AuDyVXXh50\",\"origin\":\"http://localhost:3000\",\"crossOrigin\":false}",
+      "clientData": {
+        "type": "webauthn.get",
+        "challenge": "RaYQ603HA-yJc8mPhZnWJnNIwHvMjs6B3AuDyVXXh50",
+        "origin": "http://localhost:3000",
+        "crossOrigin": false
+      },
+      "authenticatorData": {
+        "rpIdHashHex": "49960de5880e8c687434170f6476605b8fe4aeb9a28632c7995cf3ba831d9763",
+        "flags": {
+          "userPresent": true,
+          "userVerified": true,
+          "attestedCredentialData": false,
+          "extensionDataIncluded": false,
+          "rawFlagsByte": 5
+        },
+        "counter": 1
+      },
+      "details": "Xác thực thành công qua Public-Key Cryptography. SignCounter tăng từ 0 lên 1"
+    },
+    {
+      "id": "9cbccccc-02e6-401c-948a-498c8367ca8b",
+      "timestamp": "2026-10-07T14:54:29.963Z",
+      "username": "Q",
+      "action": "AUTHENTICATION",
+      "status": "SUCCESS",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "iAgbEObkNdkFUtCiGYCa31mimEo_BaP8z9CbkyKyAxo",
+      "credentialId": "nCVo40UipGduB55WvUrRFg",
+      "algorithmName": "ES256 (ECDSA P-256)",
+      "publicKeyHex": "a5010203262001215820749a4285129f8d7615db698cbe3871f047f6b96b4dbe2c0a714415080a7d27122258205a4c118cf0aec79581359df354df27f6842221aef2467ab95876a21a528e1c61",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\npQECAyYgASFYIHSaQoUSn412FdtpjL44cfBH9rlrTb4sCnFEFQgKfScSIlggWkwR\njPCux5WBNZ3zVN8n9oQiIa7yRnq5WHaiGlKOHGE=\n-----END PUBLIC KEY-----",
+      "signatureHex": "304502206f7ba88a3bb5916e28282b6727cdfe4cb66a1c220b3b483432e09e35d5ca3218022100bf38a00a80db716489e9d7e847fcde375bdbaaa92195a3318918723452a440c4",
+      "clientData": {
+        "type": "webauthn.get",
+        "challenge": "iAgbEObkNdkFUtCiGYCa31mimEo_BaP8z9CbkyKyAxo",
+        "origin": "http://localhost:3000",
+        "crossOrigin": false
+      },
+      "authenticatorData": {
+        "rpIdHashHex": "49960de5880e8c687434170f6476605b8fe4aeb9a28632c7995cf3ba831d9763",
+        "flags": {
+          "userPresent": true,
+          "userVerified": true,
+          "attestedCredentialData": false,
+          "extensionDataIncluded": false,
+          "rawFlagsByte": 29
+        },
+        "counter": 0
+      },
+      "details": "Xác thực thành công qua Public-Key Cryptography. SignCounter tăng từ 0 lên 0"
+    },
+    {
+      "id": "4a5ade20-13d0-4507-aa0a-48a353ee975c",
+      "timestamp": "2026-10-07T14:51:50.458Z",
+      "username": "Q",
+      "action": "AUTHENTICATION",
+      "status": "SUCCESS",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "1WiNJfMWbHQj6VPO4yJYkQCdBkClF7YHSv1Dnv0r2D8",
+      "credentialId": "nCVo40UipGduB55WvUrRFg",
+      "algorithmName": "ES256 (ECDSA P-256)",
+      "publicKeyHex": "a5010203262001215820749a4285129f8d7615db698cbe3871f047f6b96b4dbe2c0a714415080a7d27122258205a4c118cf0aec79581359df354df27f6842221aef2467ab95876a21a528e1c61",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\npQECAyYgASFYIHSaQoUSn412FdtpjL44cfBH9rlrTb4sCnFEFQgKfScSIlggWkwR\njPCux5WBNZ3zVN8n9oQiIa7yRnq5WHaiGlKOHGE=\n-----END PUBLIC KEY-----",
+      "signatureHex": "304502205dd1cac6be1c6c93cc36443a89e641df95f477728ca96ac567bcdf1163da524502210084ae2f1831b1a2162e9fa8d5741ed059f6dc17cec7e16c9f756378d1cf551a54",
+      "clientData": {
+        "type": "webauthn.get",
+        "challenge": "1WiNJfMWbHQj6VPO4yJYkQCdBkClF7YHSv1Dnv0r2D8",
+        "origin": "http://localhost:3000",
+        "crossOrigin": false
+      },
+      "authenticatorData": {
+        "rpIdHashHex": "49960de5880e8c687434170f6476605b8fe4aeb9a28632c7995cf3ba831d9763",
+        "flags": {
+          "userPresent": true,
+          "userVerified": true,
+          "attestedCredentialData": false,
+          "extensionDataIncluded": false,
+          "rawFlagsByte": 29
+        },
+        "counter": 0
+      },
+      "details": "Xác thực thành công qua Public-Key Cryptography. SignCounter tăng từ 0 lên 0"
+    },
+    {
+      "id": "f019501a-4fcc-4969-aee3-1afdd9d4649f",
+      "timestamp": "2026-10-07T14:51:00.946Z",
+      "username": "Q",
+      "action": "REGISTRATION",
+      "status": "SUCCESS",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "P40oAxiGhknGCaMu8LSjRmyQCrtnqNlzbAz2iom78bk",
+      "credentialId": "nCVo40UipGduB55WvUrRFg",
+      "algorithmName": "ES256 (ECDSA P-256)",
+      "publicKeyHex": "a5010203262001215820749a4285129f8d7615db698cbe3871f047f6b96b4dbe2c0a714415080a7d27122258205a4c118cf0aec79581359df354df27f6842221aef2467ab95876a21a528e1c61",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\npQECAyYgASFYIHSaQoUSn412FdtpjL44cfBH9rlrTb4sCnFEFQgKfScSIlggWkwR\njPCux5WBNZ3zVN8n9oQiIa7yRnq5WHaiGlKOHGE=\n-----END PUBLIC KEY-----",
+      "clientData": {
+        "type": "webauthn.create",
+        "challenge": "P40oAxiGhknGCaMu8LSjRmyQCrtnqNlzbAz2iom78bk",
+        "origin": "http://localhost:3000",
+        "crossOrigin": false
+      },
+      "authenticatorData": {
+        "rpIdHashHex": "49960de5880e8c687434170f6476605b8fe4aeb9a28632c7995cf3ba831d9763",
+        "flags": {
+          "userPresent": true,
+          "userVerified": true,
+          "attestedCredentialData": true,
+          "extensionDataIncluded": false,
+          "rawFlagsByte": 93
+        },
+        "counter": 0,
+        "aaguidHex": "ea9b8d664d011d213ce4b6b48cb575d4"
+      },
+      "details": "Đăng ký thành công khóa FIDO2. SignCount=0"
+    },
+    {
+      "id": "3d1ad785-c435-4c1f-a0e7-7b12d7755b51",
+      "timestamp": "2026-10-07T14:19:56.354Z",
+      "username": "s",
+      "action": "REGISTRATION",
+      "status": "SUCCESS",
+      "rpId": "localhost",
+      "origin": "http://localhost:3000",
+      "challenge": "pMmRZSl9r_6lmXgf4nLeuW7qne59q56ll8DYUWnKZ_0",
+      "credentialId": "4Sd24Hocs2ZP9EiH3dc0jSwYuDTGygv8PPPgatwW-G8",
+      "algorithmName": "ES256 (ECDSA P-256)",
+      "publicKeyHex": "a5010203262001215820e28af31885896e23ae48874815a94d9c24229e63f5ffe51526dca890580af3f4225820d2620f049699578dd9f0a6456932766a8add607ea8b4eabf2a30e0895eb165ad",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\npQECAyYgASFYIOKK8xiFiW4jrkiHSBWpTZwkIp5j9f/lFSbcqJBYCvP0Ilgg0mIP\nBJaZV43Z8KZFaTJ2aordYH6otOq/KjDgiV6xZa0=\n-----END PUBLIC KEY-----",
+      "clientData": {
+        "type": "webauthn.create",
+        "challenge": "pMmRZSl9r_6lmXgf4nLeuW7qne59q56ll8DYUWnKZ_0",
+        "origin": "http://localhost:3000",
+        "crossOrigin": false
+      },
+      "authenticatorData": {
+        "rpIdHashHex": "49960de5880e8c687434170f6476605b8fe4aeb9a28632c7995cf3ba831d9763",
+        "flags": {
+          "userPresent": true,
+          "userVerified": true,
+          "attestedCredentialData": true,
+          "extensionDataIncluded": false,
+          "rawFlagsByte": 69
+        },
+        "counter": 0,
+        "aaguidHex": "9ddd1817af5a4672a2b93e3dd95000a9"
+      },
+      "details": "Đăng ký thành công khóa FIDO2. SignCount=0"
+    }
+  ]
+}
